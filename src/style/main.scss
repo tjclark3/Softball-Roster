@@ -1,0 +1,33 @@
+$mainGray: #6C6A6A;
+$freeRed: #CB2121;
+$agentBlue: #2F1D61;
+$font-primary: 'Montserrat', sans-serif;
+
+.backgroundSkew {
+    width: 100vw;
+    height: 700px;
+    background-color: $agentBlue;
+    transform: skewY(-10deg);
+    margin-top: -17rem;
+    padding-top: 17rem;
+    border-bottom: 1rem solid $freeRed;
+}
+
+.backgroundSkew > * {
+    transform: skewY(10deg);
+}
+
+.softball-heading {
+    text-align: center;
+    margin: 20px;
+    padding-top: 46px;
+    color: white;
+    font-weight: 700;
+    font-family: $font-primary;
+}
+
+.softball-subheading {
+    margin-bottom: 46px;
+    color: rgba (225,225,225,.075);
+    font-size: 20px;
+}

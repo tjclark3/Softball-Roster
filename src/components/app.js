@@ -4,7 +4,14 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>DevCamp React Starter</h1>
+        <div className="backgroundSkew">
+          <div className="softball-heading">
+            <h1>Free Agents Roster/Batting Order</h1>
+            <div className="softball-subheading">
+            Enter the names of the players in their batting order.
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
